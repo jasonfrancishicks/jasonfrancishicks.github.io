@@ -17,8 +17,8 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "CV"
-    url: /files/UVic_CV_Hicks_2025.pdf
+ # - title: "CV"
+  #  url: /files/UVic_CV_Hicks_2025.pdf
     
 
     
