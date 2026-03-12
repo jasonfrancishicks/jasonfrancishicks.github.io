@@ -61,9 +61,38 @@ line-height:1.55;
 padding-left:18px;
 }
 
+.hero {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  align-items: start;
+  margin-top: 30px;
+}
+
+.hero-text {
+  max-width: 650px;
+}
+
+.hero-photo {
+  display: flex;
+  justify-content: center;
+}
+
 .profile-photo {
-  width: 220px;
-  height: 220px;
+  width: 240px;
+  height: 240px;
   object-fit: cover;
   border-radius: 4px;
+}
+
+@media (max-width: 700px) {
+
+.hero {
+  grid-template-columns: 1fr;
+}
+
+.hero-photo {
+  margin-top: 20px;
+}
+
 }
